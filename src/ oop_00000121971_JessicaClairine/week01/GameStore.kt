@@ -4,6 +4,11 @@ fun main() {
     val gameTitle = "Blockblast"
     val price = 750000
     val finalPrice = calculateDiscount(price)
+    printReceipt(
+        title = gameTitle,
+        originalPrice = price,
+        finalPrice = finalPrice
+    )
 }
 
 fun calculateDiscount(price: Int): Int =
@@ -12,3 +17,9 @@ fun calculateDiscount(price: Int): Int =
     } else {
         price - (price * 10 / 100)
     }
+
+fun printReceipt(title: String, originalPrice: Int, finalPrice: Int) {
+    println("Judul Game  : $title")
+    println("Harga Asli  : Rp $originalPrice")
+    println("Harga Akhir : Rp $finalPrice")
+}
