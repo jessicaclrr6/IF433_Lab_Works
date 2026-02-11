@@ -30,3 +30,5 @@ fun main () {
     println("pemain populer: ${player2.nama}");
     println("kecepatan: ${player2.speed}");
 }
+
+// secondary
