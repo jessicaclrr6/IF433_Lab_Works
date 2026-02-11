@@ -14,7 +14,7 @@ fun main() {
 
     scanner.nextLine() // bersihkan buffer newline(penyakit klasik scanner!)
 
-    // validasi di sisi pemanggil (main)
+    // validasi di sisi pemanggil (oop_00000121971_JessicaClairine.week02.main)
     if (nim.length != 5) {
         println("ERROR: Pendaftaran dibatalkan. NIM harus 5 karakter!")
         // program berheti di sini untuk mahasiswa ini, tidak membuat objek
