@@ -1,6 +1,6 @@
 package oop_00000121971_JessicaClairine.week02
 
-class Student (val name: String, val nim: String, var major: String){
+class Student (val name: String, val nim: String, var major: String, var gpa: Double = 0.0){
     init{
         // validasi sederhana: cek panjnag nim
         if (nim.length != 5) {
@@ -12,7 +12,7 @@ class Student (val name: String, val nim: String, var major: String){
     }
     // secondary constructor
     // wajib memanggil primary constructor menggunakan 'thus()'
-    constructor(name: String, nim: String) : this(name, nim, major= "Non-Matriculated") {
+    constructor(name: String, nim: String) : this(name, nim, major= "Non-Matriculated", gpa = 0.0) {
         println("LOG: menggunakan constructor jalur umum (Tanpa Jurusan). ")
     }
 }
