@@ -1,4 +1,4 @@
-package oop_00000121971_JessicaClairine.week02
+package ` oop_00000121971_JessicaClairine`.week01.week02
 
 import java.util.Scanner
 

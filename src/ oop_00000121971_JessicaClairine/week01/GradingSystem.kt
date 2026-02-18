@@ -23,5 +23,5 @@ fun main() {
     println("Panjang ID: $idLength")
 }
 
-// Tulis DI LUAR oop_00000121971_JessicaClairine.week02.main()
+// Tulis DI LUAR oop_00000121971_JessicaClairine.week01.week02.main()
 fun calculateStatus(score: Int) = if (score > 75) "Lulus" else "Tidak Lulus"

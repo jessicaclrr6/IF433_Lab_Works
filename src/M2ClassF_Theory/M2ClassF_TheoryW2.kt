@@ -1,4 +1,4 @@
-package oop_00000121971_JessicaClairine.week02
+package M2ClassF_Theory
 
 class Pemain {
     var nama:String = "tidak terdaftar";
