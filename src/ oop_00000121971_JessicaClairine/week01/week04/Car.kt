@@ -5,6 +5,10 @@ class Car(
     val numberOfDoors: Int
 ) : Vehicle(brand) {
 
+    override fun honk() {
+        println("$brand berbunyi: Beep beep!")
+    }
+
     fun openTrunk() {
         println("$brand membuka bagasi.")
     }
