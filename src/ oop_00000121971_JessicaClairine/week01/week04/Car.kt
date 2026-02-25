@@ -1,6 +1,6 @@
 package ` oop_00000121971_JessicaClairine`.week01.week04
 
-class Car(
+open class Car(
     brand: String,
     val numberOfDoors: Int
 ) : Vehicle(brand) {
