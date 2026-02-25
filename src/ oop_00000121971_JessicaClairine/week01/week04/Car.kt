@@ -9,6 +9,11 @@ class Car(
         println("$brand berbunyi: Beep beep!")
     }
 
+    override fun accelerate() {
+        super.accelerate()
+        println("$brand menambah kecepatan dengan tenaga ekstra!")
+    }
+
     fun openTrunk() {
         println("$brand membuka bagasi.")
     }
