@@ -12,6 +12,7 @@ class SmartHomeHub {
             }
         }
     }
+
     fun activateSecurityMode() {
         for (device in devices) {
             if (device is Recordable) {
