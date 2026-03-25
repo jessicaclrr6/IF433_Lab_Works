@@ -1,6 +1,6 @@
 package M2ClassF_Theory
 
-abstract class MataKuliah {
+abstract class MataKuliahh {
     var nama:String = "";
     abstract fun set_matkul(sks:Int);
 

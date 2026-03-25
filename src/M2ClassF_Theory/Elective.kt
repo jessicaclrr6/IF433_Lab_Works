@@ -1,6 +1,6 @@
 package M2ClassF_Theory
 
-class Elective: MataKuliah(){
+class Elective: MataKuliahh(){
     override fun set_matkul(sks: Int) {
         super.nama = "Vr programing";
         println("Elective ${super.nama} sks $sks")

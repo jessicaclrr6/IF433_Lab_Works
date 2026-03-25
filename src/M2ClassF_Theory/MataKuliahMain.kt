@@ -1,7 +1,7 @@
 package M2ClassF_Theory
 
 fun main() {
-    val listMatkul: List<MataKuliah> = listOf(
+    val listMatkul: List<MataKuliahh> = listOf(
         Wajib(),
         Elective()
     );
