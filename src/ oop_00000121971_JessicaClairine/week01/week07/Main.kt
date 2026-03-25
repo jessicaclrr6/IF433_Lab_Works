@@ -40,10 +40,19 @@ fun main() {
     GameManager.startGame()
     GameManager.startGame()
 
+    println()
+
     println("Drop chance LEGENDARY: ${ItemRarity.LEGENDARY.dropChance}%")
 
     val weapon = Weapon.forgeStarterSword()
     println("Weapon: ${weapon.item.name}, Damage: ${weapon.item.damage}")
 
+    println()
 
+    val upgraded = weapon.item.copy(damage = 25)
+
+    processEvent(BattleState.SafeZone)
+    processEvent(BattleState.MonsterEncounter("Goblin Nakal"))
+    processEvent(BattleState.LootDropped(upgraded))
+    processEvent(BattleState.GameOver("Terkena jebakan racun"))
 }
