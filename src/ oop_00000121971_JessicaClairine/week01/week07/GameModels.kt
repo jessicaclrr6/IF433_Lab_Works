@@ -1,4 +1,15 @@
 package ` oop_00000121971_JessicaClairine`.week01.week07
 
-class GameModels {
+enum class ItemRarity(val dropChance: Int) {
+    COMMON(70),
+    UNCOMMON(20),
+    RARE(7),
+    EPIC(2),
+    LEGENDARY(1)
 }
+
+data class GameItem(
+    val name: String,
+    val damage: Int,
+    val rarity: ItemRarity
+)
