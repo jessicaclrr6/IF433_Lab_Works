@@ -1,4 +1,4 @@
-package ` oop_00000121971_JessicaClairine`.week01.week03
+package oop_00000121971_JessicaClairine.week01.week03
 
 class Weapon(
     val name: String,

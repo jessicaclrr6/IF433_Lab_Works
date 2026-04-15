@@ -1,4 +1,4 @@
-package ` oop_00000121971_JessicaClairine`.week01.week02
+package oop_00000121971_JessicaClairine.week01.week02
 
 import java.util.Scanner
 
@@ -34,7 +34,7 @@ fun main() {
     print("Masukkan Base Damage Hero: ")
     val damage = scanner.nextInt()
 
-    val hero = Hero(heroName, damage)
+    val hero = _root_ide_package_.oop_00000121971_JessicaClairine.week01.week02.Hero(heroName, damage)
     var enemyHp = 100
 
     while (hero.isAlive() && enemyHp > 0) {

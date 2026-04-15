@@ -1,6 +1,6 @@
-package ` oop_00000121971_JessicaClairine`.week01.week05
+package oop_00000121971_JessicaClairine.week01.week05
 
-class EWallet(accountName: String, var balance: Double): PaymentMethod(accountName) {
+class EWallet(accountName: String, var balance: Double): oop_00000121971_JessicaClairine.week01.week05.PaymentMethod(accountName) {
     override fun processPayment(amount: Double) {
         if (balance >= amount) {
             balance -= amount

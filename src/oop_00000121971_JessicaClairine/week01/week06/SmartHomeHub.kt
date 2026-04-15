@@ -1,8 +1,8 @@
-package ` oop_00000121971_JessicaClairine`.week01.week06
+package oop_00000121971_JessicaClairine.week01.week06
 
 class SmartHomeHub {
-    val devices = mutableListOf<SmartDevice>()
-    fun addDevice(device: SmartDevice) {
+    val devices = mutableListOf<oop_00000121971_JessicaClairine.week01.week06.SmartDevice>()
+    fun addDevice(device: oop_00000121971_JessicaClairine.week01.week06.SmartDevice) {
         devices.add(device)
     }
     fun turnOffAllSwitches() {

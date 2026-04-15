@@ -1,4 +1,4 @@
-package ` oop_00000121971_JessicaClairine`.week01
+package oop_00000121971_JessicaClairine.week01
 
 fun main() {
     // REFACTOR: Gunakan val dan hapus tipe data eksplisit
@@ -17,7 +17,7 @@ fun main() {
     }
 
     println("Grade kamu: $grade")
-    println("Status: ${calculateStatus(score)}")
+    println("Status: ${_root_ide_package_.oop_00000121971_JessicaClairine.week01.calculateStatus(score)}")
     val studentId: String? = null
     val idLength = studentId?.length ?: 0
     println("Panjang ID: $idLength")

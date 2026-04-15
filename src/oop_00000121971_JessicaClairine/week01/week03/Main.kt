@@ -1,7 +1,7 @@
-package ` oop_00000121971_JessicaClairine`.week01.week03
+package oop_00000121971_JessicaClairine.week01.week03
 
 fun main() {
-    val e = Employee("Budi")
+    val e = _root_ide_package_.oop_00000121971_JessicaClairine.week01.week03.Employee("Budi")
     e.salary = -1000
     e.salary = 5000000
     println("Gaji: ${e.salary}")
@@ -9,7 +9,7 @@ fun main() {
     println("Pajak yang harus dibayar: ${e.tax}")
 
     println("\n=== TEST WEAPON ===")
-    val sword = Weapon("Excalibur", 300)
+    val sword = _root_ide_package_.oop_00000121971_JessicaClairine.week01.week03.Weapon("Excalibur", 300)
 
     sword.damage = -50
     sword.damage = 9999
@@ -20,7 +20,7 @@ fun main() {
 
     println("\n=== TEST PLAYER ===")
 
-    val player = Player("Jessica")
+    val player = _root_ide_package_.oop_00000121971_JessicaClairine.week01.week03.Player("Jessica")
 
     player.addXp(50)
     player.addXp(60)

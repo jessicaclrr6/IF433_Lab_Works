@@ -1,4 +1,4 @@
-package ` oop_00000121971_JessicaClairine`.week01.week07
+package oop_00000121971_JessicaClairine.week01.week07
 
 enum class ItemRarity(val dropChance: Int) {
     COMMON(70),

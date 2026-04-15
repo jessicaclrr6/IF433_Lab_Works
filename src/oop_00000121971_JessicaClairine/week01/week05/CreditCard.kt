@@ -1,6 +1,6 @@
-package ` oop_00000121971_JessicaClairine`.week01.week05
+package oop_00000121971_JessicaClairine.week01.week05
 
-class CreditCard(accountName: String, val limit: Double): PaymentMethod(accountName) {
+class CreditCard(accountName: String, val limit: Double): oop_00000121971_JessicaClairine.week01.week05.PaymentMethod(accountName) {
 
     var usedAmount: Double = 0.0
 

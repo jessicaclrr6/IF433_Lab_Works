@@ -5,9 +5,9 @@ fun main() {
     val price = 750000
     val userNote: String? = null
 
-    val finalPrice = calculateDiscount(price)
+    val finalPrice = _root_ide_package_.oop_00000121971_jessicaclairine.week01.calculateDiscount(price)
 
-    printReceipt(
+    _root_ide_package_.oop_00000121971_jessicaclairine.week01.printReceipt(
         title = gameTitle,
         originalPrice = price,
         finalPrice = finalPrice,

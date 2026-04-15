@@ -1,4 +1,4 @@
-package ` oop_00000121971_JessicaClairine`.week01.week06
+package oop_00000121971_JessicaClairine.week01.week06
 
 class SmartSpeaker(override val id: String, override val name: String) : SmartDevice, Switchable {
     override fun turnOn() {

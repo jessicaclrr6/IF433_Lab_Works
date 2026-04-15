@@ -1,4 +1,4 @@
-package ` oop_00000121971_JessicaClairine`.week01.week02
+package oop_00000121971_JessicaClairine.week01.week02
 
 import java.util.Scanner
 
@@ -33,7 +33,7 @@ fun main() {
         duration = 1
     }
 
-    val loan = Loan(title, borrower, duration)
+    val loan = _root_ide_package_.oop_00000121971_JessicaClairine.week01.week02.Loan(title, borrower, duration)
 
     println("\n=== DETAIL PEMINJAMAN ===")
     println("Judul Buku: ${loan.bookTitle}")

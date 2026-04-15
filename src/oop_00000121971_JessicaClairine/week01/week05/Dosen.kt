@@ -1,6 +1,6 @@
-package ` oop_00000121971_JessicaClairine`.week01.week05
+package oop_00000121971_JessicaClairine.week01.week05
 
-class Dosen(nama: String, val nidn: String) : Pegawai(nama) {
+class Dosen(nama: String, val nidn: String) : oop_00000121971_JessicaClairine.week01.week05.Pegawai(nama) {
     override fun bekerja() {
         println("[$nama] sedang menyiapkan materi perkuliahan dan merevisi RPKPS.")
     }

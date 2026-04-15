@@ -1,4 +1,4 @@
-package ` oop_00000121971_JessicaClairine`.week01.week04
+package oop_00000121971_JessicaClairine.week01.week04
 
 open class Vehicle(val brand: String){
     var speed: Int = 0

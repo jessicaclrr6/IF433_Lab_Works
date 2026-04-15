@@ -1,4 +1,4 @@
-package ` oop_00000121971_JessicaClairine`.week01.week06
+package oop_00000121971_JessicaClairine.week01.week06
 
 class Smartwatch : Watch(), BluetoothConnectable, Rechargeable {
     override fun showTime() {

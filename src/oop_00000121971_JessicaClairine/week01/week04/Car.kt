@@ -1,9 +1,9 @@
-package ` oop_00000121971_JessicaClairine`.week01.week04
+package oop_00000121971_JessicaClairine.week01.week04
 
 open class Car(
     brand: String,
     val numberOfDoors: Int
-) : Vehicle(brand) {
+) : oop_00000121971_JessicaClairine.week01.week04.Vehicle(brand) {
 
     override fun honk() {
         println("$brand berbunyi: Beep beep!")

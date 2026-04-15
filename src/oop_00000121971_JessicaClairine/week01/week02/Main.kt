@@ -1,6 +1,6 @@
-package ` oop_00000121971_JessicaClairine`.week01.week02
+package oop_00000121971_JessicaClairine.week01.week02
 
-import ` oop_00000121971_JessicaClairine`.week01.week02.Student
+import oop_00000121971_JessicaClairine.week01.week02.Student
 
 import java.util.Scanner
 
@@ -22,7 +22,7 @@ fun main() {
         val major = scanner.nextLine()
 
         // Instansiasi Objek karena data sudah aman
-        val s1 = Student(name, nim, major)
+        val s1 = _root_ide_package_.oop_00000121971_JessicaClairine.week01.week02.Student(name, nim, major)
         println("Status: Pendaftaran Selesai.")
     }
 
@@ -32,10 +32,10 @@ fun main() {
     if (type == 1) {
         print("Masukkan Jurusan: ")
         val major = readLine()!!
-        val s1 = Student(name, nim, major)
+        val s1 = _root_ide_package_.oop_00000121971_JessicaClairine.week01.week02.Student(name, nim, major)
         println("Terdaftar di: ${s1.major} dengan GPA awal ${s1.gpa}")
     } else if (type == 2) {
-        val s2 = Student(name, nim)
+        val s2 = _root_ide_package_.oop_00000121971_JessicaClairine.week01.week02.Student(name, nim)
         println("Terdaftar di: ${s2.major} dengan GPA awal ${s2.gpa}")
     } else {
         println("Pilihan ngawur, pendaftaran batal!")

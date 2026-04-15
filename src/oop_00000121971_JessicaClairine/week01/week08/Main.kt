@@ -1,4 +1,4 @@
-package ` oop_00000121971_JessicaClairine`.week01.week08
+package oop_00000121971_JessicaClairine.week01.week08
 
 fun main() {
     println("=== TEST SAFE CALLS & ELVIS ===")
@@ -49,4 +49,10 @@ fun main() {
     } catch (e: IllegalArgumentException) {
         println(e.message)
     }
+
+    println("\n=== TEST JAVA INTEROP ===")
+    val javaResponse = LegacyJavaAPI.fetchServerStatus()
+    val statusLength = javaResponse!!.length
+    println("status dari java: $javaResponse (length: $statusLength)")
+
 }

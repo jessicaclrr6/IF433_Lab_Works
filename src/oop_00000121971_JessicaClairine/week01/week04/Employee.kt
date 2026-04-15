@@ -1,4 +1,4 @@
-package ` oop_00000121971_JessicaClairine`.week01.week04
+package oop_00000121971_JessicaClairine.week01.week04
 
 open class Employee(
     val name: String,

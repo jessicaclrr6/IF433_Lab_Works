@@ -1,9 +1,9 @@
-package ` oop_00000121971_JessicaClairine`.week01.week04
+package oop_00000121971_JessicaClairine.week01.week04
 
 class Manager(
     name: String,
     baseSalary: Int
-) : Employee(name, baseSalary) {
+) : oop_00000121971_JessicaClairine.week01.week04.Employee(name, baseSalary) {
 
     override fun work() {
         println("$name sedang memimpin rapat divisi.")
