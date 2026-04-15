@@ -1,5 +1,5 @@
 package ` oop_00000121971_JessicaClairine`.week01.week08
-//jessica
+
 fun main() {
     println("=== TEST SAFE CALLS & ELVIS ===")
     val emptyOrder = Order(null, null)
@@ -39,6 +39,14 @@ fun main() {
         val length = toxicData!!.length
     } catch (e: NullPointerException) {
         println("CRASH (NPE)! Jangan gunakan !1 secara sembarangan")
+    }
 
+    val apiResponse: Map<String, String?> = mapOf("status" to "200", "token" to null)
+    try {
+        val token = requireNotNull(apiResponse["token"]) {
+            "CRITICAL EXECPTION: Token otentikasi tidak ditemukan dari server!"
+        }
+    } catch (e: IllegalArgumentException) {
+        println(e.message)
     }
 }
