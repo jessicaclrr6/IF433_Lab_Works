@@ -1,5 +1,5 @@
 package ` oop_00000121971_JessicaClairine`.week01.week08
-
+//jessica
 fun main() {
     println("=== TEST SAFE CALLS & ELVIS ===")
     val emptyOrder = Order(null, null)
@@ -19,13 +19,13 @@ fun main() {
     val mixedData: List<Any> = listOf(
         "Smartphone",
         1500000,
-        UserProfile("Andi", null)
+        UserProfile("Andi", null),
         "Laptop",
         4500000.0
     )
     for (item in mixedData) {
         val text = item as? String
-        text.let {
+        text?.let {
             println("Ditemukan teks: ${it.uppercase()}")
         }
     }
