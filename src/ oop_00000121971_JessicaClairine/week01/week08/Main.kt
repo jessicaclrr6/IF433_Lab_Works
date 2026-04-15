@@ -28,5 +28,9 @@ fun main() {
         text.let {
             println("Ditemukan teks: ${it.uppercase()}")
         }
-    }git
+    }
+    val someObject: Any = 100
+    val safeString = someObject as? String ?: "Unknown String"
+    println("hasil cast = fallback: $safeString")
+
 }
