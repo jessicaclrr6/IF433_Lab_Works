@@ -14,4 +14,12 @@ fun main() {
     println("Multiplied: $multiplied")
     println("Formatted: $asStrings")
 
+    val squared = numbers.map { it * it }
+    println(squared)
+
+    val sortedDesc = numbers.sortedByDescending { it }
+    println(sortedDesc)
+
+    numbers.forEach { println(it) }
+
 }
