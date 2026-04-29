@@ -1,5 +1,5 @@
 package oop_00000121971_JessicaClairine.week01.week10
-
+//jessica
 fun main() {
     val coinRepo = WalletRepository<Coin>()
     val response = ApiResponse("200 OK", coinRepo.getAll())
@@ -16,4 +16,9 @@ fun main() {
 
     txRepo.add(Transaction("TX1", 100.0))
     txRepo.add(Transaction("TX2", 250.0))
+
+    println("\n=== TRANSACTIONS ===")
+    txRepo.getAll().forEach {
+        println("Transaction: ${it.id}, Amount: ${it.amount}")
+    }
 }
