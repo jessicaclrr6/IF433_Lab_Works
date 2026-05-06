@@ -1,6 +1,6 @@
 package oop_00000121971_JessicaClairine.week01.week11
 
-fun String.addHello(): String {
+fun String.addGreeting(): String {
     return "Hello, $this"
 }
 
