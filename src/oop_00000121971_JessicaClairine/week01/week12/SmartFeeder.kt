@@ -17,14 +17,20 @@ fun main() {
     var currentKibbleStock = 50
     println("\n=== JADWAL MAKAN PAGI ===")
     try {
-        currentKibbleStock = dispenseKibble(80, currentKibbleStock, false) [cite: 155]
+        currentKibbleStock = dispenseKibble(80, currentKibbleStock, false)
     } catch (e: DispenserJamException) {
-        println("Peringatan: ${e.message}") [cite: 157]
+        println("Peringatan: ${e.message}")
     } catch (e: FoodEmptyException) {
-        println("Peringatan: ${e.message}") [cite: 157]
+        println("Peringatan: ${e.message}")
     } catch (e: Exception) {
-        println("Terjadi kesalahan umum") [cite: 157]
+        println("Terjadi kesalahan umum")
     } finally {
-        println("Siklus pengecekan dispenser pagi selesai.") [cite: 161]
+        println("Siklus pengecekan dispenser pagi selesai.")
+    }
+
+    println("\n=== JADWAL MAKAN SORE ===")
+    // Simulasi pemilik mengisi ulang alat
+    val feedingResult = runCatching {
+        dispenseKibble(30, 1000, false)
     }
 }
