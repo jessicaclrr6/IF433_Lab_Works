@@ -24,5 +24,7 @@ fun main() {
         println("Peringatan: ${e.message}") [cite: 157]
     } catch (e: Exception) {
         println("Terjadi kesalahan umum") [cite: 157]
+    } finally {
+        println("Siklus pengecekan dispenser pagi selesai.") [cite: 161]
     }
 }
