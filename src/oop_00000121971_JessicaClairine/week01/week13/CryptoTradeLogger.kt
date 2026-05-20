@@ -24,6 +24,7 @@ fun fromCsvTrade(line: String): TradeRecord? {
             margin = parts[3].toDouble(),
             pnl = parts[4].toDouble()
         )
+        //error handling
     } catch (e: Exception) {
         println("Log Data korup diabaikan: $line")
         null
