@@ -64,6 +64,13 @@ fun main() {
 
     File("crypto_trades.csv")
         .appendText("\nKORUP!,ID,DUGESUT,Hold,XX,Y\n")
+
+    val loadedData = loadTrades("crypto_trades.csv")
+
+    println("=== LOADED TRADE DATA ===")
+    loadedData.forEach { println(it) }
+
+    val totalPnl = loadedData.sumOf { it.pnl }
 }
 
 
